@@ -2,7 +2,7 @@ module.exports = {
     helpCmdPerPage: 10, //- Number of commands per page of help command
     lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
     adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-    token: process.env.token || "", //- Bot's Token
+    token: process.env.token || "MTI0ODE2MzI1ODc3NTM3MTg0MA.GaNz52.U9Dl0GUYF1DGENtP89VH9LmEN0zOG2mZ-Ixrqg", //- Bot's Token
     clientId: process.env.clientId || "1248163258775371840", //- ID of the bot
     clientSecret: process.env.clientSecret || "KlqwXuvWoc9VKWo9zqZlGLbwbjDv22VD", //- Client Secret of the bot
     port: 4200, //- Port of the API and Dashboard
@@ -26,9 +26,9 @@ module.exports = {
     nodes: [
         {
             identifier: "Main Node", //- Used for indentifier in stats commands.
-            host: "lavalink.lexnet.cc", //- The host name or IP of the lavalink server.
-            port: 2333, // The port that lavalink is listening to. This must be a number!
-            password: "lexn3tl@val!nk", //- The password of the lavalink server.
+            host: "lavalink.ddns.net", //- The host name or IP of the lavalink server.
+            port: 7106, // The port that lavalink is listening to. This must be a number!
+            password: "discord.gg/FqEQtEtUc9", //- The password of the lavalink server.
             retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
             retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
             secure: false, //- Can be either true or false. Only use true if ssl is enabled!

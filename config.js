@@ -3,8 +3,8 @@ module.exports = {
     lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
     adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
     token: process.env.token || "", //- Bot's Token
-    clientId: process.env.clientId || "1248163258775371840", //- ID of the bot
-    clientSecret: process.env.clientSecret || "KlqwXuvWoc9VKWo9zqZlGLbwbjDv22VD", //- Client Secret of the bot
+    clientId: process.env.clientId || "1248519957654798386", //- ID of the bot
+    clientSecret: process.env.clientSecret || "7f83b4fab43577219309b4003fc349f19ecbd83c8b45c44b0174ec1791397165", //- Client Secret of the bot
     port: 4200, //- Port of the API and Dashboard
     scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
     inviteScopes: ["bot", "applications.commands"], // Invite link scopes
@@ -26,12 +26,12 @@ module.exports = {
     nodes: [
         {
             identifier: "Main Node", //- Used for indentifier in stats commands.
-            host: "va-1.riseservers.net", //- The host name or IP of the lavalink server.
-            port: 2333, // The port that lavalink is listening to. This must be a number!
-            password: "ilovemonkeys", //- The password of the lavalink server.
+            host: "oce-lavalink.lexnet.cc", //- The host name or IP of the lavalink server.
+            port: 443, // The port that lavalink is listening to. This must be a number!
+            password: "lexn3tl@val!nk", //- The password of the lavalink server.
             retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
             retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-            secure: false, //- Can be either true or false. Only use true if ssl is enabled!
+            secure: true, //- Can be either true or false. Only use true if ssl is enabled!
         },
     ],
     embedColor: "#2f3136", //- Color of the embeds, hex supported
@@ -40,7 +40,7 @@ module.exports = {
         status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
         activities: [
             {
-                name: "AETHER-MUSIC", //- Status Text
+                name: "AETHER'S-MUSIC", //- Status Text
                 type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
             },
         ],

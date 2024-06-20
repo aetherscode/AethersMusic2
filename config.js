@@ -26,9 +26,9 @@ module.exports = {
     nodes: [
         {
             identifier: "Main Node", //- Used for indentifier in stats commands.
-            host: "us1.lavalink.creavite.co", //- The host name or IP of the lavalink server.
-            port: 20080, // The port that lavalink is listening to. This must be a number!
-            password: "auto.creavite.co", //- The password of the lavalink server.
+            host: "va-1.riseservers.net", //- The host name or IP of the lavalink server.
+            port: 2333, // The port that lavalink is listening to. This must be a number!
+            password: "ilovemonkeys", //- The password of the lavalink server.
             retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
             retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
             secure: false, //- Can be either true or false. Only use true if ssl is enabled!

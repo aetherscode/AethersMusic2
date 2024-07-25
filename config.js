@@ -1,17 +1,17 @@
 module.exports = {
     helpCmdPerPage: 10, //- Number of commands per page of help command
     lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
-    adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
+    adminId: "1220645095389270019", //- Replace UserId with the Discord ID of the admin of the bot
     token: process.env.token || "", //- Bot's Token
-    clientId: process.env.clientId || "1248519957654798386", //- ID of the bot
-    clientSecret: process.env.clientSecret || "7f83b4fab43577219309b4003fc349f19ecbd83c8b45c44b0174ec1791397165", //- Client Secret of the bot
+    clientId: process.env.clientId || "1248163258775371840", //- ID of the bot
+    clientSecret: process.env.clientSecret || "LE4pmWUeWYHJYzvjPwF1xFMUAtg8wHP8", //- Client Secret of the bot
     port: 4200, //- Port of the API and Dashboard
     scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
     inviteScopes: ["bot", "applications.commands"], // Invite link scopes
     serverDeafen: true, //- If you want bot to stay deafened
     defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
-    supportServer: "https://discord.com/invite/EeDC4f8J", //- Support Server Link
-    Issues: "https://github.com/yushafahad17", //- Bug Report Link
+    supportServer: "https://discord.gg/CUtsFUpm", //- Support Server Link
+    Issues: "https://aetherscode.xyz", //- Bug Report Link
     permissions: 277083450689, //- Bot Inviting Permissions
     disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
     twentyFourSeven: false, //- When set to true, the bot will never disconnect from the voice channel
@@ -20,15 +20,15 @@ module.exports = {
     autoLeave: false, //- When set to true, the bot will automatically leave when no one is in the voice channel (can be combined with 24/7 to always be in voice channel until everyone leaves; if 24/7 is on disconnectTime will add a disconnect delay after everyone leaves.)
     debug: false, //- Debug mode
     cookieSecret: "CodingWithAethers is epic", //- Cookie Secret
-    website: "http://localhost:4200", //- without the / at the end
+    website: "https://aetherscode.xyz", //- without the / at the end
     // You need a lavalink server for this bot to work!!!!
     // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
     nodes: [
         {
             identifier: "Main Node", //- Used for indentifier in stats commands.
-            host: "node.raidenbot.xyz", //- The host name or IP of the lavalink server.
-            port: 5500, // The port that lavalink is listening to. This must be a number!
-            password: "pwd", //- The password of the lavalink server.
+            host: "lavalink.ddns.net", //- The host name or IP of the lavalink server.
+            port: 7106, // The port that lavalink is listening to. This must be a number!
+            password: "discord.gg/FqEQtEtUc9", //- The password of the lavalink server.
             retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
             retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
             secure: false, //- Can be either true or false. Only use true if ssl is enabled!
@@ -40,7 +40,7 @@ module.exports = {
         status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
         activities: [
             {
-                name: "AETHER'S-MUSIC", //- Status Text
+                name: "MUSIC", //- Status Text
                 type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
             },
         ],
